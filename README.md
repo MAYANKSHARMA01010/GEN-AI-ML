@@ -85,14 +85,18 @@ pip install pandas numpy matplotlib seaborn scikit-learn notebook
 ### Execution Steps
 
 1. **Clone the repository:**
+
    ```bash
    git clone https://github.com/your-username/GEN-AI-ML.git
    cd GEN-AI-ML
    ```
+
 2. **Launch Jupyter Notebook:**
+
    ```bash
    jupyter notebook
    ```
+
 3. **Run the Notebooks Sequentially:**
    - ➜ Run `1_Data_Mastery_&_Preprocessing.ipynb` first to generate the necessary scaled `.csv` files.
    - ➜ Run the **Phase 2** modeling notebooks in any order to train the individual models and explore the theory.
@@ -103,3 +107,9 @@ pip install pandas numpy matplotlib seaborn scikit-learn notebook
 ## 📊 Dataset
 
 The dataset used is the **Telco Customer Churn** dataset. It contains information about a fictional telco company that provided home phone and Internet services to thousands of customers, indicating which customers have left, stayed, or signed up for their service.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
